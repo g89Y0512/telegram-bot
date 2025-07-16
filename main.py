@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils import executor
 
-TOKEN = "7754020557:AAErfSMbFpCMLLIbLsq7fUGv4p91ah-rcbo"
+TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = "@crmonebox_shebo"
 ADMIN_IDS = [883527189, 630765479]
 FORM_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSdBxBbGws2-gVubk-mtzjDFfDoau5wDX1hMv8W2njDvtiXV_A/viewform"
